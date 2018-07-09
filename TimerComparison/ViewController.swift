@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var countLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var differenceLabel: UILabel!
-    let interval = 1.0/30.0
+    let interval = 0.0005
     var timer = Timer()
    
     @IBAction func didToggleTimer(_ sender: UIButton) {
